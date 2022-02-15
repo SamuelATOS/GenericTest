@@ -7,8 +7,10 @@ public class Main<T> {
 
     public static void main(String[] args) {
         Main objeto1 = new Main<>();
-        objeto1.ArrayFiller((Integer)5,(Integer)10);
+        objeto1.ArrayFiller(5,10);
         objeto1.imprimirArray();
+        System.out.println("Product = "+objeto1);
+
         List<Integer> deCadenaInteger = new ArrayList<>();
         deCadenaInteger.add(10);
         deCadenaInteger.add(15);
@@ -21,9 +23,9 @@ public class Main<T> {
     List<T> ArrayNum = new ArrayList<>();
 
     // asignamos dos parametros de tipo T al metodo que rellena 2 indexes al arraylist
-    public void ArrayFiller(T randomValue, T parametroAcambiar){
+    public void ArrayFiller(T parametroRandom, T parametroAcambiar){
         for ( int i = 0; i<10; i++){
-            ArrayNum.add(i, randomValue);
+            ArrayNum.add(i, parametroRandom);
         }
         ArrayNum.set(1,parametroAcambiar);
 
@@ -36,10 +38,11 @@ public class Main<T> {
         System.out.println("Valor especifico:" + ArrayNum.get(2));
 //        System.out.println("Suma" + (ArrayNum.get(3) + ArrayNum.get(4)));
     }
+    /*
     public void Suma2indexes(T ramdomValue, T parametroAcambiar){
         T ResultadoSuma =  ramdomValue + parametroAcambiar;
         return ResultadoSuma;
-    }
+    }*/
 
 //    public void suma(){
 //        ArrayNum.
