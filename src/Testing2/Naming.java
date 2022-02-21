@@ -1,4 +1,4 @@
-package Test;
+package Testing2;
 
 public class Naming {
     protected String name;

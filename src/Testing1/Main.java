@@ -1,4 +1,4 @@
-package GenericTest;
+package Testing1;
 
 import java.util.ArrayList;
 import java.util.List;

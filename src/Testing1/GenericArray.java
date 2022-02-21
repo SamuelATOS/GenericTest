@@ -1,7 +1,4 @@
-package GenericTest;
-
-import javax.swing.*;
-import java.util.ArrayList;
+package Testing1;
 
 public class GenericArray {
     public static void main(String[] args) {

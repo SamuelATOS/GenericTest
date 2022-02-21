@@ -1,6 +1,6 @@
-package GenericTest;
+package Testing1;
 
-public class GenericCollection<T> {
+public class GenericCollection<T, I extends Number> {
 
     T index1;
     T index2;
